@@ -41,6 +41,6 @@ A simple and secure console-based Password Generator built using C++. This appli
 
 ---
 
-## 📂 Project Structure
+
 
 
