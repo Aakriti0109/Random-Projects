@@ -20,6 +20,4 @@ A simple console-based Quiz Game built using C++. This project asks multiple-cho
 
 ---
 
-## 📂 Project Structure
-# Quiz-Game
-It is a fun quiz game. You'll be asked 3 questions. At last your score will be shown.
+
