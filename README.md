@@ -156,12 +156,122 @@ This project is open-source and available under the MIT License.
 
 ---
 
-## ✨ Author
 
-**Aakriti Singh**
-BTech CSE Student
+# 4🎮 Tic Tac Toe (C++)
+
+A simple and interactive **console-based Tic Tac Toe game** built using C++. This project demonstrates basic programming concepts like arrays, loops, condition checking, and user input handling.
 
 ---
+
+## 📌 Overview
+
+Tic Tac Toe is a classic two-player game played on a 3×3 grid. Players take turns marking a cell with their symbol (**X** or **O**) with the goal of getting three in a row.
+
+---
+
+## 🚀 Features
+
+* 👥 Two-player mode (Player X vs Player O)
+* ✅ Input validation to prevent invalid moves
+* 🧠 Win detection (rows, columns, diagonals)
+* 🤝 Draw detection when board is full
+* 🖥️ Simple and clean console interface
+
+---
+
+## 🛠️ Tech Stack
+
+* Language: **C++**
+* Libraries: Standard Library (`iostream`)
+
+---
+
+## 📂 Project Structure
+
+```
+tic-tac-toe-cpp/
+│
+├── src/
+│   └── main.cpp
+│
+├── README.md
+└── .gitignore
+```
+
+---
+
+## ▶️ How to Run
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-username/tic-tac-toe-cpp.git
+```
+
+### 2. Navigate to Source Folder
+
+```bash
+cd tic-tac-toe-cpp/src
+```
+
+### 3. Compile the Program
+
+```bash
+g++ main.cpp -o tic
+```
+
+### 4. Run the Game
+
+```bash
+./tic
+```
+
+---
+
+## 🎯 How to Play
+
+* The board positions are numbered from **1 to 9**
+* Players take turns entering a number
+* The number corresponds to the position on the grid
+* First player to get **3 in a row** (horizontal, vertical, diagonal) wins
+* If all positions are filled without a winner → **Draw**
+
+---
+
+## 🧩 Example Board
+
+```
+1 | 2 | 3
+--+---+--
+4 | 5 | 6
+--+---+--
+7 | 8 | 9
+```
+
+---
+
+## 📈 Future Enhancements
+
+* 🤖 Single-player mode with AI
+* 🎨 Graphical User Interface (GUI)
+* 💾 Score tracking system
+* 🌐 Multiplayer (online)
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Feel free to fork the repo and submit a pull request.
+
+---
+
+## 📜 License
+
+This project is open-source and available under the MIT License.
+
+---
+
+
 
 ⭐ If you like this project, don’t forget to give it a star!
 
