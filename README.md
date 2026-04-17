@@ -270,8 +270,76 @@ Contributions are welcome! Feel free to fork the repo and submit a pull request.
 This project is open-source and available under the MIT License.
 
 ---
+# 🔁5 Palindrome Checker (C++)
+
+## 📌 Overview
+
+This is a simple C++ program that checks whether a given word is a **palindrome** or not.
+
+A palindrome is a word, number, or string that reads the same forward and backward.
+Examples:
+
+* `madam`
+* `racecar`
+* `level`
+
+---
+
+## ⚙️ How It Works
+
+1. The program takes a word as input from the user.
+2. It reverses the word using a loop.
+3. It compares the original word with the reversed one.
+4. If both match → it's a palindrome. Otherwise → it's not.
 
 
 
-⭐ If you like this project, don’t forget to give it a star!
+
+## ▶️ How to Run
+
+1. Save the file as `palindrome.cpp`
+2. Compile the code:
+
+   ```
+   g++ palindrome.cpp -o palindrome
+   ```
+3. Run the program:
+
+   ```
+   ./palindrome
+   ```
+
+---
+
+## 🧪 Sample Run
+
+```
+Enter a word: madam
+It's a palindrome!
+```
+
+```
+Enter a word: hello
+Not a palindrome.
+```
+
+---
+
+## 🚀 Future Improvements
+
+* Allow full sentences (ignore spaces and punctuation)
+* Make it case-insensitive (e.g., "Madam")
+* Add a loop to check multiple inputs
+* Use functions for cleaner code
+
+---
+
+## 📚 Concepts Used
+
+* Strings
+* Loops (`for`)
+* Conditional statements (`if-else`)
+
+---
+
 
