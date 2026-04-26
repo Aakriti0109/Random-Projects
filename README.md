@@ -341,5 +341,82 @@ Not a palindrome.
 * Conditional statements (`if-else`)
 
 ---
+# 6. Java Logical Operations Program
+
+## Overview
+
+This is a simple Java program that takes two boolean inputs from the user and performs basic logical operations:
+
+* AND (`&&`)
+* OR (`||`)
+* NOT (`!`)
+
+## Features
+
+* Accepts user input using `Scanner`
+* Performs logical operations on boolean values
+* Displays results clearly in the console
+
+## Requirements
+
+* Java Development Kit (JDK) installed
+* Basic knowledge of running Java programs
+
+## How to Run
+
+1. Save the file as:
+
+   ```
+   LogicalOperationsInput.java
+   ```
+
+2. Open terminal or command prompt and compile the program:
+
+   ```
+   javac LogicalOperationsInput.java
+   ```
+
+3. Run the program:
+
+   ```
+   java LogicalOperationsInput
+   ```
+
+## Usage
+
+* Enter boolean values when prompted:
+
+  * Type `true` or `false` (case insensitive)
+
+### Example
+
+```
+Enter first boolean value (true/false): true
+Enter second boolean value (true/false): false
+a AND b: false
+a OR b: true
+NOT a: false
+NOT b: true
+```
+
+## Code Explanation
+
+* `Scanner` is used to read input from the user.
+* `nextBoolean()` reads boolean values (`true` or `false`).
+* Logical operators:
+
+  * `&&` → AND
+  * `||` → OR
+  * `!` → NOT
+
+## Notes
+
+* Input must be either `true` or `false`. Any other input may cause an error.
+* The program closes the scanner after use to prevent resource leaks.
+
+## License
+
+This project is free to use for learning and educational purposes.
+
 
 
